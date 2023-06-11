@@ -1,0 +1,52 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  /* background-color: #212121; */
+  background-image: url('https://thumbs.gfycat.com/PresentGentleGreyhounddog-size_restricted.gif');
+  height: 100vh;
+  letter-spacing: 0.05em;
+  width: 100vw;
+}
+
+.paginaLogin {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.login {
+  align-items: center;
+
+  /* background-color: blueviolet; */
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.logo {
+  height: 100px;
+  margin: 10px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.correto {
+  background-color: rgb(6, 240, 15);
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.errado {
+  background-color: red;
+  border: 3px solid red;
+}
